@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
+require_relative 'item'
+require_relative 'game'
 require_relative 'book'
 require_relative 'boardgame'
 require_relative 'comp_game'
 require_relative 'customers'
-require_relative 'game'
-require_relative 'item'
 require_relative 'order'
 require_relative 'order_rephosit'
 require_relative 'order_viewer'

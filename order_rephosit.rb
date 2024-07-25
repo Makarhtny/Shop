@@ -2,6 +2,7 @@ require 'csv'
 require 'sqlite3'
 
 class OrderRephository < Order
+
   def load_from_csv
     table = CSV.read('new.csv')
     table.shift

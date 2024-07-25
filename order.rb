@@ -5,12 +5,12 @@ class Order
     @items = items
   end
 
-  def add_item(item)
-    @items << item
+  def add_item(item_to_add)
+    @items << item_to_add
   end
 
-  def delete_item(item)
-    @items.delete(item)
+  def delete_item(item_to_delete)
+    @items.delete(item_to_delete)
   end
 
   def take_items_count
