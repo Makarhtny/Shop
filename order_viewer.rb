@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class OrderViewer < Order
 
   def export_order

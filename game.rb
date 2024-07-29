@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Game < Item
   attr_accessor :age_limit, :amount_of_people
 

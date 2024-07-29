@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require_relative 'order'
 
 class Customers
@@ -9,10 +10,6 @@ class Customers
     @email = email
     @phone = phone
     @adress = adress
-  end
-
-  def create_orders
-    @order = Order.new
   end
 
   def pay_for_order

@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 class Order
   attr_accessor :items
 
-  def initialize(items=[])
+  def initialize(items = [])
     @items = items
   end
 
@@ -18,8 +20,6 @@ class Order
   end
 
   def calculate_total_sum
-    sum = 0
-    @items.each { |item| sum += item.price }
-    sum
+    @items.map(&:price).sum
   end
 end
